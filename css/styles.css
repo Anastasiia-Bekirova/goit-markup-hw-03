@@ -76,6 +76,9 @@ h3 {
 }
 
 /*================HEADER==================*/
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
 .page-header .accent-color {
     color: #2e2f42;
     font-family: "Raleway", sans-serif;
@@ -111,10 +114,12 @@ address {
 }
 .page-header .contacts-list-link {
     color: #434455;
-    margin-right: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
     display: block;
+}
+.contacts-list-item:not(:last-child) {
+    margin-right: 40px;
 }
 .page-header .contacts-list-link:hover,
 .page-header .contacts-list-link:focus {
@@ -122,8 +127,8 @@ address {
 }
 .page-header-container {
     display: flex;
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 15px;
+    padding-left: 15px;
     justify-content: space-between;
 }
 
@@ -151,7 +156,7 @@ address {
 }
 
 .hero-header {
-    width: 496px;
+    max-width: 496px;
     margin-bottom: 48px;
     font-weight: 700;
     font-size: 56px;
@@ -177,7 +182,7 @@ address {
     padding: 16px 32px;
     border-radius: 4px;
     border: none;
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     flex-direction: row;
@@ -209,17 +214,19 @@ address {
     width: 264px;
     height: 380px;
 }
-.team-mate-photo {
-    margin-bottom: 32px;
+.card-container {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
+
 .team .team-mate-full-name {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 8px;
 }
 .team .team-mate-position {
     text-align: center;
-    margin-bottom: 32px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -238,28 +245,29 @@ address {
     column-gap: 24px;
     row-gap: 48px;
 }
-.portfolio-list-item {
-    width: calc((100% - 48px) / 3);
+.project-card-container {
+    padding: 32px 16px;
+    border-top: none;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
+
 }
-.portfolio-list-image {
-    margin-bottom: 32px;
+.portfolio-list-item {
+    width: calc((100% - 48px) / 3);
 }
+
 .portfolio-list-title {
-    margin-left: 16px;
     margin-bottom: 8px;
 }
-.portfolio-list-text {
-    margin-left: 16px;
-    margin-bottom: 32px;
-}
+
 /*=============FOOTER===============*/
 .page-footer {
     background-color: #2e2f42;
     max-width: 1440px;
     height: 312px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .page-footer .accent-color {
     color: #f4f4fd;
@@ -267,12 +275,10 @@ address {
 .page-footer .footer-text {
     color:#f4f4fd
 } 
-.page-footer-container {
+.page-footer-container .page-logo {
     display: inline-block;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-right: 864px;
+    margin-bottom: 16px;
 }
  .footer-text {
-    margin-top: 16px;
+    min-width: 264px;
 }
