@@ -1,0 +1,128 @@
+ul, ol {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #2e2f42;
+}
+button {
+    cursor: pointer;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+h2, h3 {
+    color: #2e2f42;
+}
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+/*================HEADER==================*/
+.page-header .accent-color {
+    color: #2e2f42;
+    font-family: "Raleway", sans-serif;
+}
+.page-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.page-header .nav-list-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.page-header .nav-list-link:hover,
+.page-header .nav-list-link:focus {
+    color: #404bbf;
+}
+
+address {
+    font-style: normal;
+}
+.page-header .contacts-list-link {
+    color: #434455;
+}
+.page-header .contacts-list-link:hover,
+.page-header .contacts-list-link:focus {
+    color: #404bbf;
+}
+/*=============HERO=================*/
+.hero {
+    background-color: #2e2f42;
+}
+.hero-header {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+}
+.order-service-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #4D5AE5;
+    text-align: center;
+}
+.order-service-button:hover,
+.order-service-button:focus {
+    background-color:#404bbf
+}
+/*=============FEATURES==============*/
+
+/*============TEAM-MATES=============*/
+.team {
+    background-color: #f4f4fd;
+}
+.team .team-list-item {
+    background-color: #ffffff;
+}
+.team .team-mate-full-name {
+    text-align: center;
+}
+.team .team-mate-position {
+    text-align: center;
+}
+/*============PORTFOLIO=============*/
+.portfolio-list-item {
+    background-color: #ffffff;
+}
+/*=============FOOTER===============*/
+.page-footer {
+    background-color: #2e2f42;
+}
+.page-footer .accent-color {
+    color: #f4f4fd;
+}
+.page-footer .footer-text {
+    color:#f4f4fd
+} 
